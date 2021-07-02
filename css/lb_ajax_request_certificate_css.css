@@ -1,0 +1,49 @@
+/*
+* Style the plugin here :)
+*/
+p {
+    font-style: italic;
+}
+
+#request-button:hover {
+    background-color: blue;
+}
+
+#request-button:active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#lb-ajax-request-certificate-advice {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#lb_ajax_request_certificate_button_anchor {
+    /*It is changed by Js -> lb_ajax_request_certificate_js.js */
+    display: none;
+}
+
+#lb_ajax_request_certificate_message {
+    background-color: #ffb8c2;
+    width: 80%;
+    font-style: normal;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#lb_ajax_request_certificate_button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
